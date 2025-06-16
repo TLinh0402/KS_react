@@ -4,7 +4,7 @@ import SearchBar from './SearchBar';
 function App() {
   const handleSearch = (query) => {
     // Xử lý giá trị nhập vào ở đây
-    alert('Bạn vừa tìm kiếm: ' + query);
+    alert('Vừa tìm kiếm : ' + query);
   };
 
   return (
