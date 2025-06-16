@@ -45,6 +45,20 @@ const SearchBar = ({ onSearch }) => {
                     </button>
                 </div>
             </div>
+<<<<<<< HEAD
+            <div style={{ display: 'flex', margin: 10 }}>
+                <input
+                    style={{ flex: 1, padding: 8, marginRight: 10, borderRadius: 5, border: '1px solid #ccc' }}
+                    type="text"
+                    placeholder="Nhập vào đây nè..."
+                    value={query}
+                    onChange={e => setQuery(e.target.value)}
+                />
+                <button onClick={() => onSearch(query)}>Tìm kiếm</button>
+            </div>
+        </div>
+=======
+>>>>>>> 4687584f38a956097e655bfaab39f9e3d69835d5
 
         );
     };
