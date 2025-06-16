@@ -3,7 +3,7 @@ import SearchBar from './SearchBar';
 
 function App() {
   const handleSearch = (query) => {
-    console.log('Từ khóa tìm kiếm:', query);
+    console.log('Từ khóa tìm kiếm huhuuu   :', query);
   };
 
   return (
