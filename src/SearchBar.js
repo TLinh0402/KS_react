@@ -12,7 +12,7 @@ const SearchBar = ({ onSearch }) => {
                 <input
                     style={{ flex: 1, padding: 8, marginRight: 10, borderRadius: 5, border: '1px solid #ccc' }}
                     type="text"
-                    placeholder="Nhập từ khóa tìm kiếm..."
+                    placeholder="Nhập vào đây nè..."
                     value={query}
                     onChange={e => setQuery(e.target.value)}
                 />
