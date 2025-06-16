@@ -3,14 +3,13 @@ import SearchBar from './SearchBar';
 
 function App() {
   const handleSearch = (query) => {
-    console.log('Từ khóa tìm kiếm:', query);
+    // Xử lý giá trị nhập vào ở đây
+    alert('Bạn vừa tìm kiếm: ' + query);
   };
 
   return (
     <div style={{ marginTop: 30 }}>
-  
       <SearchBar onSearch={handleSearch} />
-      {/* Các thành phần khác */}
     </div>
   );
 }
